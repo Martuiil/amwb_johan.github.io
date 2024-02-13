@@ -2,7 +2,7 @@ var title = document.querySelector('.title');
 var courseFeatureElements = document.querySelectorAll('.course-feature');
 var button = document.querySelector('button');
 
-navigator.serviceWorker.register('/sw.js');
+navigator.serviceWorker.register('/amwb_johan.github.io/sw.js');
 
 function animate() {
   title.classList.remove('animate-in');
